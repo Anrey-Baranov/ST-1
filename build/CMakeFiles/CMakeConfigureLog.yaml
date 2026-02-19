@@ -1,0 +1,2322 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:17.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.45
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        A:/testirovanie/ST-1/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link"
+      - "C:/Program Files/Python311/Scripts/lld-link.com"
+      - "C:/Program Files/Python311/Scripts/lld-link.exe"
+      - "C:/Program Files/Python311/Scripts/lld-link"
+      - "C:/Program Files/Python311/lld-link.com"
+      - "C:/Program Files/Python311/lld-link.exe"
+      - "C:/Program Files/Python311/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/Anaconda/Library/bin/lld-link.com"
+      - "C:/Anaconda/Library/bin/lld-link.exe"
+      - "C:/Anaconda/Library/bin/lld-link"
+      - "C:/Anaconda/Scripts/lld-link.com"
+      - "C:/Anaconda/Scripts/lld-link.exe"
+      - "C:/Anaconda/Scripts/lld-link"
+      - "C:/Anaconda/condabin/lld-link.com"
+      - "C:/Anaconda/condabin/lld-link.exe"
+      - "C:/Anaconda/condabin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.com"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/mt"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/mt.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/mt.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/mt"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/mt.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/mt.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/mt"
+      - "C:/Program Files/Python311/Scripts/mt.com"
+      - "C:/Program Files/Python311/Scripts/mt.exe"
+      - "C:/Program Files/Python311/Scripts/mt"
+      - "C:/Program Files/Python311/mt.com"
+      - "C:/Program Files/Python311/mt.exe"
+      - "C:/Program Files/Python311/mt"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.com"
+      - "C:/ProgramData/Oracle/Java/javapath/mt.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/mt"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/mt"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/mt.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/mt.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/mt"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/mt"
+      - "C:/Anaconda/Library/bin/mt.com"
+      - "C:/Anaconda/Library/bin/mt.exe"
+      - "C:/Anaconda/Library/bin/mt"
+      - "C:/Anaconda/Scripts/mt.com"
+      - "C:/Anaconda/Scripts/mt.exe"
+      - "C:/Anaconda/Scripts/mt"
+      - "C:/Anaconda/condabin/mt.com"
+      - "C:/Anaconda/condabin/mt.exe"
+      - "C:/Anaconda/condabin/mt"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/mt.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/mt.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:18.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.47
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        A:/testirovanie/ST-1/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/lld-link"
+      - "C:/Program Files/Python311/Scripts/lld-link.com"
+      - "C:/Program Files/Python311/Scripts/lld-link.exe"
+      - "C:/Program Files/Python311/Scripts/lld-link"
+      - "C:/Program Files/Python311/lld-link.com"
+      - "C:/Program Files/Python311/lld-link.exe"
+      - "C:/Program Files/Python311/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/lld-link"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/lld-link"
+      - "C:/Anaconda/Library/bin/lld-link.com"
+      - "C:/Anaconda/Library/bin/lld-link.exe"
+      - "C:/Anaconda/Library/bin/lld-link"
+      - "C:/Anaconda/Scripts/lld-link.com"
+      - "C:/Anaconda/Scripts/lld-link.exe"
+      - "C:/Anaconda/Scripts/lld-link"
+      - "C:/Anaconda/condabin/lld-link.com"
+      - "C:/Anaconda/condabin/lld-link.exe"
+      - "C:/Anaconda/condabin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ST-1/bin/"
+      - "C:/Program Files (x86)/ST-1/sbin/"
+      - "C:/Program Files (x86)/ST-1/"
+    searched_directories:
+      - "C:/Program Files/Microsoft MPI/Bin/rc.com"
+      - "C:/Program Files/Microsoft MPI/Bin/rc.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/rc"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/rc.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/rc.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/rc"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/rc.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/rc.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/rc"
+      - "C:/Program Files/Python311/Scripts/rc.com"
+      - "C:/Program Files/Python311/Scripts/rc.exe"
+      - "C:/Program Files/Python311/Scripts/rc"
+      - "C:/Program Files/Python311/rc.com"
+      - "C:/Program Files/Python311/rc.exe"
+      - "C:/Program Files/Python311/rc"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.com"
+      - "C:/ProgramData/Oracle/Java/javapath/rc.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/rc"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/rc"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/rc.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/rc.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/rc"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/rc"
+      - "C:/Anaconda/Library/bin/rc.com"
+      - "C:/Anaconda/Library/bin/rc.exe"
+      - "C:/Anaconda/Library/bin/rc"
+      - "C:/Anaconda/Scripts/rc.com"
+      - "C:/Anaconda/Scripts/rc.exe"
+      - "C:/Anaconda/Scripts/rc"
+      - "C:/Anaconda/condabin/rc.com"
+      - "C:/Anaconda/condabin/rc.exe"
+      - "C:/Anaconda/condabin/rc"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/rc.com"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/rc.exe"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/rc.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/rc.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/ST-1/bin/rc.com"
+      - "C:/Program Files (x86)/ST-1/bin/rc.exe"
+      - "C:/Program Files (x86)/ST-1/bin/rc"
+      - "C:/Program Files (x86)/ST-1/sbin/rc.com"
+      - "C:/Program Files (x86)/ST-1/sbin/rc.exe"
+      - "C:/Program Files (x86)/ST-1/sbin/rc"
+      - "C:/Program Files (x86)/ST-1/rc.com"
+      - "C:/Program Files (x86)/ST-1/rc.exe"
+      - "C:/Program Files (x86)/ST-1/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ST-1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ST-1"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-0k722w"
+      binary: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-0k722w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-0k722w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_143fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:19.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0k722w\\cmTC_143fe.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0k722w\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_143fe.dir\\Debug\\cmTC_143fe.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_143fe.dir\\Debug\\cmTC_143fe.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_143fe.dir\\Debug\\cmTC_143fe.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_143fe.dir\\Debug\\\\" /Fd"cmTC_143fe.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35220 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_143fe.dir\\Debug\\\\" /Fd"cmTC_143fe.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0k722w\\Debug\\cmTC_143fe.exe" /INCREMENTAL /ILK:"cmTC_143fe.dir\\Debug\\cmTC_143fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-0k722w/Debug/cmTC_143fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-0k722w/Debug/cmTC_143fe.lib" /MACHINE:X64  /machine:x64 cmTC_143fe.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_143fe.vcxproj -> A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0k722w\\Debug\\cmTC_143fe.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_143fe.dir\\Debug\\cmTC_143fe.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_143fe.dir\\Debug\\cmTC_143fe.tlog\\cmTC_143fe.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0k722w\\cmTC_143fe.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35220.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-ean43o"
+      binary: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-ean43o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-ean43o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d84c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:19.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ean43o\\cmTC_d84c9.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ean43o\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_d84c9.dir\\Debug\\cmTC_d84c9.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_d84c9.dir\\Debug\\cmTC_d84c9.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_d84c9.dir\\Debug\\cmTC_d84c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d84c9.dir\\Debug\\\\" /Fd"cmTC_d84c9.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35220 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_d84c9.dir\\Debug\\\\" /Fd"cmTC_d84c9.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ean43o\\Debug\\cmTC_d84c9.exe" /INCREMENTAL /ILK:"cmTC_d84c9.dir\\Debug\\cmTC_d84c9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-ean43o/Debug/cmTC_d84c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-ean43o/Debug/cmTC_d84c9.lib" /MACHINE:X64  /machine:x64 cmTC_d84c9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d84c9.vcxproj -> A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ean43o\\Debug\\cmTC_d84c9.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_d84c9.dir\\Debug\\cmTC_d84c9.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_d84c9.dir\\Debug\\cmTC_d84c9.tlog\\cmTC_d84c9.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ean43o\\cmTC_d84c9.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35220.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1884 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "test/CMakeLists.txt:8 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/"
+      - "C:/Program Files/Python311/Scripts/"
+      - "C:/Program Files/Python311/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/"
+      - "C:/Program Files/Razer Chroma SDK/bin/"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Anaconda/Library/bin/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Anaconda/condabin/"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ST-1/bin/"
+      - "C:/Program Files (x86)/ST-1/sbin/"
+      - "C:/Program Files (x86)/ST-1/"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft MPI/Bin/git.cmd.com"
+      - "C:/Program Files/Microsoft MPI/Bin/git.cmd.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/git.cmd"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git.cmd.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git.cmd.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git.cmd.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git.cmd.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git.cmd"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git.cmd.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git.cmd.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git.cmd"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git.cmd.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git.cmd.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git.cmd"
+      - "C:/Program Files/Python311/Scripts/git.cmd.com"
+      - "C:/Program Files/Python311/Scripts/git.cmd.exe"
+      - "C:/Program Files/Python311/Scripts/git.cmd"
+      - "C:/Program Files/Python311/git.cmd.com"
+      - "C:/Program Files/Python311/git.cmd.exe"
+      - "C:/Program Files/Python311/git.cmd"
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd.com"
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.cmd"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.cmd"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.cmd"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git.cmd.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git.cmd.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/Scripts/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Python/Python310/git.cmd"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WinGet/Links/git.cmd"
+      - "C:/Anaconda/Library/bin/git.cmd.com"
+      - "C:/Anaconda/Library/bin/git.cmd.exe"
+      - "C:/Anaconda/Library/bin/git.cmd"
+      - "C:/Anaconda/Scripts/git.cmd.com"
+      - "C:/Anaconda/Scripts/git.cmd.exe"
+      - "C:/Anaconda/Scripts/git.cmd"
+      - "C:/Anaconda/condabin/git.cmd.com"
+      - "C:/Anaconda/condabin/git.cmd.exe"
+      - "C:/Anaconda/condabin/git.cmd"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/.dotnet/tools/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/ST-1/bin/git.cmd.com"
+      - "C:/Program Files (x86)/ST-1/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/ST-1/bin/git.cmd"
+      - "C:/Program Files (x86)/ST-1/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/ST-1/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/ST-1/sbin/git.cmd"
+      - "C:/Program Files (x86)/ST-1/git.cmd.com"
+      - "C:/Program Files (x86)/ST-1/git.cmd.exe"
+      - "C:/Program Files (x86)/ST-1/git.cmd"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Microsoft MPI/Bin/git.com"
+      - "C:/Program Files/Microsoft MPI/Bin/git.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/git"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-21.0.3.9-hotspot/bin/git"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp/git"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin/git"
+      - "C:/Program Files/Python311/Scripts/git.com"
+      - "C:/Program Files/Python311/Scripts/git.exe"
+      - "C:/Program Files/Python311/Scripts/git"
+      - "C:/Program Files/Python311/git.com"
+      - "C:/Program Files/Python311/git.exe"
+      - "C:/Program Files/Python311/git"
+      - "C:/ProgramData/Oracle/Java/javapath/git.com"
+      - "C:/ProgramData/Oracle/Java/javapath/git.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/git"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/git.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/git"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/git"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git.com"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git.exe"
+      - "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/Microsoft/WindowsApps/git"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/git"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git.com"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git.exe"
+      - "C:/Program Files/ffmpeg-6.0-full_build/ffmpeg-6.0-full_build/bin/git"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.1.12-hotspot\\bin"
+        - "C:\\Program Files\\Python311\\Scripts\\"
+        - "C:\\Program Files\\Python311\\"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files\\Razer Chroma SDK\\bin"
+        - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\Program Files\\Razer\\ChromaBroadcast\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.3.0\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Python\\Python310\\"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\ffmpeg-6.0-full_build\\ffmpeg-6.0-full_build\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp"
+        - "C:\\Anaconda\\Library\\bin\\"
+        - "C:\\Anaconda\\Scripts\\"
+        - "C:\\Anaconda\\condabin\\"
+        - "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0410\u043d\u0434\u0440\u0435\u0439\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ST-1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ST-1"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-rlafho"
+      binary: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-rlafho"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -O3 -g"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-rlafho'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61853.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:26.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_61853.dir\\Debug\\cmTC_61853.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_61853.dir\\Debug\\cmTC_61853.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_61853.dir\\Debug\\cmTC_61853.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_61853.dir\\Debug\\\\" /Fd"cmTC_61853.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\src.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35220 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_61853.dir\\Debug\\\\" /Fd"cmTC_61853.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\src.c"
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+          src.c
+        A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+        
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rlafho\\cmTC_61853.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 2
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-50ncqv"
+      binary: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-50ncqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -O3 -g"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-50ncqv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0862.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:26.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_c0862.dir\\Debug\\cmTC_c0862.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_c0862.dir\\Debug\\cmTC_c0862.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_c0862.dir\\Debug\\cmTC_c0862.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0862.dir\\Debug\\\\" /Fd"cmTC_c0862.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35220 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c0862.dir\\Debug\\\\" /Fd"cmTC_c0862.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\CheckFunctionExists.c"
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\Debug\\cmTC_c0862.exe" /INCREMENTAL /ILK:"cmTC_c0862.dir\\Debug\\cmTC_c0862.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-50ncqv/Debug/cmTC_c0862.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-50ncqv/Debug/cmTC_c0862.lib" /MACHINE:X64  /machine:x64 cmTC_c0862.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+        
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50ncqv\\cmTC_c0862.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 2
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-jzio8p"
+      binary: "A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-jzio8p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -O3 -g"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-jzio8p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36922.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.23+b0019275e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 19.02.2026 13:51:27.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_36922.dir\\Debug\\cmTC_36922.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_36922.dir\\Debug\\cmTC_36922.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_36922.dir\\Debug\\cmTC_36922.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36922.dir\\Debug\\\\" /Fd"cmTC_36922.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35220 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_36922.dir\\Debug\\\\" /Fd"cmTC_36922.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -O3 -g "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\CheckFunctionExists.c"
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+        cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\Debug\\cmTC_36922.exe" /INCREMENTAL /ILK:"cmTC_36922.dir\\Debug\\cmTC_36922.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-jzio8p/Debug/cmTC_36922.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"A:/testirovanie/ST-1/build/CMakeFiles/CMakeScratch/TryCompile-jzio8p/Debug/cmTC_36922.lib" /MACHINE:X64  /machine:x64 cmTC_36922.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-O3" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+          cl : ╨║╨╛╨╝╨░╨╜╨┤╨╜╨░╤П ╤Б╤В╤А╨╛╨║╨░  warning D9002: ╨┐╤А╨╛╨┐╤Г╤Б╨║ ╨╜╨╡╨╕╨╖╨▓╨╡╤Б╤В╨╜╨╛╨│╨╛ ╨┐╨░╤А╨░╨╝╨╡╤В╤А╨░ "-g" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+        
+        
+        "A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [A:\\testirovanie\\ST-1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jzio8p\\cmTC_36922.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 2
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.34
+        
+      exitCode: 1
+...
