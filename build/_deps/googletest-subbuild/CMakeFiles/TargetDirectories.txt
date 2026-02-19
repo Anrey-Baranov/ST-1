@@ -1,3 +1,0 @@
-A:/testirovanie/ST-1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-A:/testirovanie/ST-1/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
-A:/testirovanie/ST-1/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
